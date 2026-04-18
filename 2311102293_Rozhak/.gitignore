@@ -1,0 +1,83 @@
+# Log Files
+*.log
+
+# Env Files
+.env
+.env.*
+!.env.example
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Editor Files
+/.vscode
+/.idea
+/.cursor
+/.zed
+
+# Php Tools
+.phpactor.json
+.phpunit.result.cache
+/.phpunit.cache
+
+# Laravel Cache
+/storage/*.key
+/storage/pail
+/storage/logs
+/storage/framework/cache
+/storage/framework/sessions
+/storage/framework/views
+
+# Public Assets
+/public/build
+/public/hot
+/public/storage
+
+# Node Modules
+/node_modules
+
+# Vendor Files
+/vendor
+
+# Auth Files
+auth.json
+
+# Helper Files
+_ide_helper.php
+_ide_helper_models.php
+
+# Homestead Config
+Homestead.json
+Homestead.yaml
+
+# Composer Lock
+composer.lock
+
+# Npm Lock
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Coverage Files
+coverage/
+.phpunit.cache
+
+# Debug Files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing Files
+.phpunit.result.cache
+
+# Misc Files
+*.tmp
+*.swp
+*.bak
+
+# OS Metadata
+desktop.ini
+
+# Laravel Backup
+*.sqlite
