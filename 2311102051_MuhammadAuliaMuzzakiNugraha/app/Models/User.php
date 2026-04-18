@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use App\Notifications\ThemedResetPasswordNotification;
 // use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Database\Factories\UserFactory;
 use Illuminate\Database\Eloquent\Attributes\Fillable;
@@ -28,5 +29,13 @@ class User extends Authenticatable
             'email_verified_at' => 'datetime',
             'password' => 'hashed',
         ];
+    }
+
+    /**
+     * Send the password reset notification with the app's custom email theme.
+     */
+    public function sendPasswordResetNotification($token): void
+    {
+        $this->notify(new ThemedResetPasswordNotification($token));
     }
 }
