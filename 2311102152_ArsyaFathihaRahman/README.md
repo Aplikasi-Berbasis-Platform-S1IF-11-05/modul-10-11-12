@@ -259,9 +259,10 @@ body {
 </body>
 </html>
 ...
-
-### b. File View (`create.blade.php`)
 ```
+### b. File View (`create.blade.php`)
+```html
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -391,5 +392,20 @@ Secara keseluruhan, aplikasi ini sudah mampu menampilkan data secara dinamis kar
 # 📸 Output
 
 Website menampilkan daftar makanan dengan tampilan modern menggunakan Bootstrap. Setiap produk ditampilkan dalam bentuk card yang berisi nama makanan, harga, dan deskripsi.
+1. Tampilan Halaman Website Festival makanan
+<img width="1920" height="1080" alt="TampilanHalaman1" src="https://github.com/user-attachments/assets/173022a2-e5d2-49fa-9b77-4414eb150599" />
+
+2. Tampilan Menu Tambah Produk
+<img width="1920" height="1080" alt="MenuTambah2" src="https://github.com/user-attachments/assets/664ac9e2-a45a-4ca1-b375-065d7fc5fe93" />
+
+3. Tampilan Menambahkan Menu Tambah Produk
+   <img width="1920" height="1026" alt="MenuTambahProduk3" src="https://github.com/user-attachments/assets/1c79a223-3751-4031-9168-068ac27f99cb" />
+
+4. Tampilan hasil
+   <img width="1920" height="1080" alt="TampilanHasil4" src="https://github.com/user-attachments/assets/d5311af8-3ee3-4c69-93d7-73789bfa6a78" />
+
+5. Tampilan Tambah menu dan Hasil MYSQLnya
+   <img width="1920" height="1080" alt="Mysql5" src="https://github.com/user-attachments/assets/087d6b00-7923-46ff-98ac-c88dd4c4f925" />
+
 
 
