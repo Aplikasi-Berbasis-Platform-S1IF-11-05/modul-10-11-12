@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-label="Ayam bakar">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#991b1b"/>
+      <stop offset="100%" stop-color="#f97316"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" rx="36" fill="url(#bg)"/>
+  <circle cx="610" cy="100" r="180" fill="#ffffff" opacity="0.12"/>
+  <ellipse cx="400" cy="355" rx="250" ry="92" fill="#fff7ed"/>
+  <path d="M255 314c26-54 58-88 103-95 73-12 153 32 189 95-49 35-99 53-149 53-50 0-95-18-143-53Z" fill="#3f1d0c"/>
+  <path d="M287 293c19-29 45-47 79-52 53-8 109 15 135 52-37 28-75 42-114 42-40 0-73-14-100-42Z" fill="#7c2d12"/>
+  <path d="M330 250c26-16 48-11 71 0" stroke="#fde68a" stroke-width="12" stroke-linecap="round"/>
+  <path d="M407 240c24-17 51-11 76 2" stroke="#fef3c7" stroke-width="12" stroke-linecap="round"/>
+  <path d="M262 382h270" stroke="#b45309" stroke-width="14" stroke-linecap="round" opacity="0.9"/>
+  <path d="M350 182l25 40h50l-40 28 15 46-50-32-50 32 15-46-40-28h50Z" fill="#fde68a"/>
+</svg>

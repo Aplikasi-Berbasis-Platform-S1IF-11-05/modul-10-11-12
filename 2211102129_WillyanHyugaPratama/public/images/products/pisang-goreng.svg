@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-label="Pisang goreng keju">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" rx="36" fill="url(#bg)"/>
+  <circle cx="140" cy="100" r="180" fill="#ffffff" opacity="0.1"/>
+  <ellipse cx="400" cy="372" rx="220" ry="76" fill="#fff7ed" opacity="0.95"/>
+  <path d="M218 320c28-47 82-86 156-96 87-11 158 18 220 82-31 42-74 66-129 72-114 13-198-17-247-58Z" fill="#b45309"/>
+  <path d="M255 312c24-34 66-60 125-70 68-11 124 6 173 52-24 28-56 45-95 50-84 11-147-4-203-32Z" fill="#f59e0b"/>
+  <path d="M308 272c54 15 119 12 184-6" stroke="#fde68a" stroke-width="18" stroke-linecap="round"/>
+  <path d="M250 238l20 20m58-38l10 28m65-43l2 29m68-25l-8 28m66 4l-22 18" stroke="#fff7ed" stroke-width="14" stroke-linecap="round"/>
+  <path d="M305 404h190" stroke="#fef3c7" stroke-width="24" stroke-linecap="round"/>
+  <path d="M326 120h150" stroke="#fff7ed" stroke-width="14" stroke-linecap="round" opacity="0.8"/>
+</svg>
