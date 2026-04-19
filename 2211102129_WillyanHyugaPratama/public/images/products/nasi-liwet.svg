@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-label="Nasi liwet">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#b45309"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="30%" cy="20%" r="70%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="520" rx="36" fill="url(#bg)"/>
+  <circle cx="210" cy="120" r="220" fill="url(#glow)"/>
+  <ellipse cx="400" cy="355" rx="210" ry="95" fill="#fff7ed"/>
+  <ellipse cx="400" cy="330" rx="245" ry="120" fill="#f8fafc"/>
+  <ellipse cx="400" cy="315" rx="180" ry="72" fill="#fef3c7"/>
+  <ellipse cx="292" cy="260" rx="44" ry="58" fill="#7c2d12"/>
+  <ellipse cx="376" cy="240" rx="44" ry="62" fill="#dc2626"/>
+  <ellipse cx="460" cy="245" rx="42" ry="59" fill="#166534"/>
+  <ellipse cx="548" cy="262" rx="43" ry="56" fill="#92400e"/>
+  <path d="M250 330c38-32 102-46 152-46s117 14 152 46c-50 33-101 51-152 51s-104-18-152-51Z" fill="#fff7ed"/>
+  <circle cx="400" cy="120" r="42" fill="#fde68a"/>
+  <path d="M400 86l10 26h27l-22 16 8 26-23-16-23 16 8-26-22-16h27Z" fill="#b45309"/>
+</svg>

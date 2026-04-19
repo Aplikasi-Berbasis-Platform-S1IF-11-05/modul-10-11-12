@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-label="Sate sapi">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#78350f"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" rx="36" fill="url(#bg)"/>
+  <circle cx="610" cy="110" r="180" fill="#ffffff" opacity="0.12"/>
+  <path d="M145 360h510" stroke="#fde68a" stroke-width="30" stroke-linecap="round" opacity="0.85"/>
+  <path d="M170 330l360-150" stroke="#f8fafc" stroke-width="10" stroke-linecap="round" opacity="0.9"/>
+  <path d="M235 306l88-36 70 26 74-31 85 32" fill="none" stroke="#5b1d0d" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M235 306l88-36 70 26 74-31 85 32" fill="none" stroke="#a16207" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="324" cy="270" r="26" fill="#7c2d12"/>
+  <circle cx="412" cy="262" r="26" fill="#92400e"/>
+  <circle cx="494" cy="256" r="26" fill="#7c2d12"/>
+  <circle cx="574" cy="245" r="26" fill="#92400e"/>
+  <ellipse cx="400" cy="390" rx="230" ry="62" fill="#fff7ed"/>
+  <ellipse cx="400" cy="384" rx="165" ry="38" fill="#fed7aa"/>
+</svg>

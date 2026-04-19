@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-label="Kopi susu">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3f3f46"/>
+      <stop offset="100%" stop-color="#ca8a04"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" rx="36" fill="url(#bg)"/>
+  <circle cx="610" cy="100" r="180" fill="#ffffff" opacity="0.08"/>
+  <ellipse cx="400" cy="375" rx="200" ry="78" fill="#fff7ed" opacity="0.95"/>
+  <path d="M286 150h228l-25 220H310Z" fill="#f8fafc"/>
+  <path d="M312 176h176l-17 160H329Z" fill="#7c2d12"/>
+  <path d="M320 176h176l-8 70H312Z" fill="#fef3c7" opacity="0.95"/>
+  <path d="M335 112c-12 20-18 35-18 45" stroke="#f8fafc" stroke-width="14" stroke-linecap="round" opacity="0.8"/>
+  <path d="M398 104c-12 20-18 35-18 45" stroke="#f8fafc" stroke-width="14" stroke-linecap="round" opacity="0.8"/>
+  <path d="M461 112c-12 20-18 35-18 45" stroke="#f8fafc" stroke-width="14" stroke-linecap="round" opacity="0.8"/>
+  <path d="M345 262c30 18 77 18 115 0" stroke="#fde68a" stroke-width="18" stroke-linecap="round" opacity="0.9"/>
+  <path d="M300 404h200" stroke="#b45309" stroke-width="16" stroke-linecap="round" opacity="0.9"/>
+</svg>
