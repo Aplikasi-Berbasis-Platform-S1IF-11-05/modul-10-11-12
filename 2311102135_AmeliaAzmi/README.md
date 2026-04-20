@@ -473,13 +473,26 @@ body {
 
 
 # Penjelasan Code
-```
+
 
 Aplikasi ini merupakan solusi digital berbasis framework Laravel dan database MySQL yang dirancang untuk mengotomatisasi pengelolaan katalog Restoran Mas Jakobi secara dinamis. Melalui arsitektur MVC, setiap data produk yang diinput oleh admin akan diproses oleh Controller, disimpan ke dalam Database, dan ditampilkan kembali secara otomatis pada halaman utama web menggunakan Blade Engine. Sistem ini memastikan penyampaian informasi harga dan deskripsi produk berjalan efektif, sekaligus mendukung target digitalisasi Ngawi Barat dalam menciptakan ekosistem kerja berbasis teknologi.
-```
+
 
 
 # Output Program
+<img width="1920" height="1080" alt="1 landingpage" src="https://github.com/user-attachments/assets/7f5805b7-3032-4b64-9d82-0ec8d2e78933" />
+
+<img width="1920" height="1080" alt="2 Tambahmenu" src="https://github.com/user-attachments/assets/bb7032ac-f13c-4617-b1a6-ecb689af6419" />
+
+<img width="1920" height="1080" alt="3 TampilanAddmenu" src="https://github.com/user-attachments/assets/d1f175d7-64fe-4860-af7d-130f4c633517" />
+
+<img width="1920" height="1080" alt="4 Tampilanhalaman" src="https://github.com/user-attachments/assets/7d8ad409-7be1-4935-854a-7a54a136c1b5" />
+
+<img width="1920" height="1080" alt="5 Withphpmyadmin" src="https://github.com/user-attachments/assets/2109dbf6-4c1b-4656-b9e6-b0cf280a65e2" />
+
+
+
+
 
 
 
