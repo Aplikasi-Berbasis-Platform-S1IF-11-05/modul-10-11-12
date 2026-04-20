@@ -293,7 +293,7 @@ abstract class Controller
 Output:
 ## 1️ Halaman Utama
 
-<img src="images/1.png" width="1000%"><br/>
+<img src="1.png" width="100%">
 
 ## Penjelasan
 Menampilkan seluruh data produk makanan yang tersimpan di database.  
@@ -301,8 +301,8 @@ Setiap produk memiliki nama, deskripsi, harga, serta tombol aksi (Edit & Hapus).
 
 ## 2 Form Tambah Produk
 
-  <img src="images/2.png" width="1000"><br/>
-  <img src="images/3.png" width="1000"><br/>
+  <img src="2.png" width="1000"><br/>
+  <img src="3.png" width="1000"><br/>
 
 ## Penjelasan
 Halaman ini digunakan untuk menambahkan data produk baru.  
@@ -310,8 +310,8 @@ User mengisi nama produk, harga, dan deskripsi, lalu klik tombol simpan.<br/>
 
 ## 3 Form TEdit Produk
 
-  <img src="images/4.png" width="1000"><br/>
-  <img src="images/5.png" width="1000"><br/>
+  <img src="4.png" width="1000"><br/>
+  <img src="5.png" width="1000"><br/>
 
 ## Penjelasan
 Halaman ini digunakan untuk mengubah data produk.  
@@ -319,8 +319,8 @@ Field akan otomatis terisi dengan data sebelumnya sehingga bisa diedit.<br/>
 
 ## 4 Konfirmasi Hapus Produk
 
-  <img src="images/6.png" width="1000"><br/>
-  <img src="images/7.png" width="1000"><br/>
+  <img src="6.png" width="1000"><br/>
+  <img src="7.png" width="1000"><br/>
 
 ## Penjelasan
 Saat tombol hapus ditekan, sistem akan menampilkan alert konfirmasi.  
@@ -328,7 +328,7 @@ Tujuannya untuk mencegah pengguna menghapus data secara tidak sengaja.<br/>
 
 ## 5 Database (phpMyAdmin)
 
-  <img src="images/8.png" width="1000"><br/>
+  <img src="8.png" width="1000"><br/>
 
 ## Penjelasan
 Data produk disimpan dalam tabel `products` pada database MySQL.  
