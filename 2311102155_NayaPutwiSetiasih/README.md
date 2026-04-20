@@ -384,12 +384,18 @@ Secara keseluruhan, aplikasi ini sudah mampu menampilkan data secara dinamis kar
 # 📸 Output
 
 Website menampilkan daftar makanan dengan tampilan modern menggunakan Bootstrap. Setiap produk ditampilkan dalam bentuk card yang berisi nama makanan, harga, dan deskripsi.
-<img width="1920" height="1080" alt="Hasil1" />
-<img width="1920" height="1080" alt="Hasil2" />
-<img width="1920" height="1026" alt="Hasil3" />
-<img width="1920" height="1080" alt="Hasil4" />
-<img width="1920" height="1080" alt="Hasil5" />
-<img width="1920" height="1080" alt="Hasil6" />
-<img width="1920" height="1080" alt="Hasil7" />
-<img width="1920" height="1080" alt="Hasil8" />
+<img src="Hasil1.png" width="1000"><br/>
+<img src="Hasil2.png" width="1000"><br/>
+<img src="Hasil3.png" width="1000"><br/>
+<img src="Hasil4.png" width="1000"><br/>
+<img src="Hasil5.png" width="1000"><br/>
+<img src="Hasil6.png" width="1000"><br/>
+<img src="Hasil7.png" width="1000"><br/>
+<img src="Hasil8.png" width="1000"><br/>
+
+
+
+
+
+
 
