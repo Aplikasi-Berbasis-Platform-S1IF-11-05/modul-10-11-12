@@ -1,58 +1,79 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<div align="center">
+  <br />
+  <h1>LAPORAN PRAKTIKUM <br> APLIKASI BERBASIS PLATFORM </h1>
+  <br />
+  <h3>MODUL 11, 12, & 13<br> LARAVEL & DATABASE MYSQL </h3>
+  <br />
+  <img width="512" height="512" alt="Telkom University" src="https://github.com/user-attachments/assets/724a3291-bcf9-448d-a395-3886a8659d79" />
+  <br />
+  <br />
+  <br />
+  <h3>Disusun Oleh :</h3>
+  <p>
+    <strong>Rifqi Hemas Pratama</strong>
+    <br>
+    <strong>2311102302</strong>
+    <br>
+    <strong>S1 Informatika</strong>
+  </p>
+  <br />
+  <h3>Dosen Pengampu :</h3>
+  <p>
+    <strong>Dedi Agung Prabowo, S.Kom., M.Kom</strong>
+  </p>
+  <br />
+  <br />
+  <h4>Asisten Praktikum :</h4>
+  <strong>Apri Pandu Wicaksono</strong>
+  <br>
+  <strong>Hamka Zaenul Ardi</strong>
+  <br />
+  <h3>LABORATORIUM HIGH PERFORMANCE <br>FAKULTAS INFORMATIKA <br>UNIVERSITAS TELKOM PURWOKERTO <br>2026 </h3>
+</div>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+<hr>
 
-## About Laravel
+---
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## DASAR TEORI
+# Intisari Teknologi: Laravel Framework & Tailwind CSS
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## 1. Mengenal Laravel: The Artisan Framework
+Laravel adalah framework PHP yang digunakan untuk menyederhanakan siklus pengembangan web. Dengan sintaks yang ekspresif, Laravel mempermudah pengelolaan database, routing, dan keamanan aplikasi. Dalam proyek ini, Laravel menjadi pondasi utama untuk merealisasikan program kerja digitalisasi Ngawi Barat.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+---
 
-## Learning Laravel
+## 2. Implementasi Arsitektur MVC
+Proyek ini mengimplementasikan pola **Model-View-Controller (MVC)**:
+* **Model:** Mengelola struktur data produk di database MySQL.
+* **View:** Menampilkan antarmuka pengguna menggunakan mesin template **Blade**.
+* **Controller:** Menangani logika bisnis, seperti proses penambahan, pengubahan, dan penghapusan menu.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+---
 
-In addition, [Laracasts](https://laracasts.com) contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## 3. Tailwind CSS: Modern Styling
+Berbeda dengan framework CSS tradisional, proyek ini menggunakan **Tailwind CSS** via CDN. Tailwind memungkinkan pembuatan desain yang *clean*, modern, dan responsif dengan konsep *utility-first*, memberikan fleksibilitas tinggi dalam merancang tema gelap (dark mode) untuk website Ngawi Food Fest.
 
-You can also watch bite-sized lessons with real-world projects on [Laravel Learn](https://laravel.com/learn), where you will be guided through building a Laravel application from scratch while learning PHP fundamentals.
+---
 
-## Agentic Development
+## 4. Database Migration & Eloquent
+Laravel menggunakan **Migration** untuk mengelola skema database secara terstruktur. Dengan **Eloquent ORM**, manipulasi data produk dilakukan secara elegan tanpa harus menulis query SQL manual, yang sangat membantu dalam mempercepat penyelesaian tugas praktikum ABP ini.
 
-Laravel's predictable structure and conventions make it ideal for AI coding agents like Claude Code, Cursor, and GitHub Copilot. Install [Laravel Boost](https://laravel.com/docs/ai) to supercharge your AI workflow:
+---
 
-```bash
-composer require laravel/boost --dev
+# Proyek: Ngawi Food Fest — Mas Jakobi
 
-php artisan boost:install
-```
+## Implementasi Kode Utama
 
-Boost provides your agent 15+ tools and skills that help agents build Laravel applications while following best practices.
+### a. Controller (`ProductController.php`)
+Mengatur alur data mulai dari menampilkan katalog hingga fungsi CRUD.
+```php
+public function index() {
+    $products = Product::all();
+    return view('products.index', compact('products'));
+}
 
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+public function store(Request $request) {
+    Product::create($request->all());
+    return redirect()->route('products.index')->with('success', 'Menu Berhasil Ditambah!');
+}
