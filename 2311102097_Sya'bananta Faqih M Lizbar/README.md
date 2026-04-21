@@ -79,14 +79,15 @@ CSRF (Cross-Site Request Forgery): Melindungi integritas data saat melakukan ope
 
 ### Screenshot Output
 
-1. **beranda.png** - Tampilan Beranda
-<img src="beranda.png" alt="beranda" style="width:100%; max-width:900px;">
+<img src="1.png" alt="beranda" style="width:100%; max-width:900px;">
+<img src="2.png" alt="beranda" style="width:100%; max-width:900px;">
+<img src="3.png" alt="beranda" style="width:100%; max-width:900px;">
+<img src="4.png" alt="beranda" style="width:100%; max-width:900px;">
+<img src="5.png" alt="beranda" style="width:100%; max-width:900px;">
+<img src="6.png" alt="beranda" style="width:100%; max-width:900px;">
+<img src="7.png" alt="beranda" style="width:100%; max-width:900px;">
 
-2. **tentang.png** - Tampilan Tentang
-<img src="tentang.png" alt="tentang" style="width:100%; max-width:900px;">
 
-3. **db.png** - Database MySQL
-<img src="db.png" alt="db" style="width:100%; max-width:900px;">
 
 
 
