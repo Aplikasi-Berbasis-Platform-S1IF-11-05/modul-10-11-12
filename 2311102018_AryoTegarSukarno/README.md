@@ -1,59 +1,104 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<div align="center">
+    <br />
+    <h1>LAPORAN PRAKTIKUM <br> APLIKASI BERBASIS PLATFORM </h1>
+    <br />
+    <h3>MODUL 10 <br> AJAX </h3>
+    <br />
+    <img width="512" height="512" alt="telyu" src="https://github.com/user-attachments/assets/724a3291-bcf9-448d-a395-3886a8659d79" />
+    <br />
+    <br />
+    <br />
+    <h3>Disusun Oleh :</h3>
+    <p>
+        <strong>ARYO TEGAR SUKARNO</strong>
+        <br>
+        <strong>2311102018</strong>
+        <br>
+        <strong>S1 IF-11-REG05</strong>
+    </p>
+    <br />
+    <h3>Dosen Pengampu :</h3>
+    <p>
+        <strong>Dedi Agung Prabowo, S.Kom., M.Kom</strong>
+    </p>
+    <br />
+    <br />
+    <h4>Asisten Praktikum :</h4>
+    <strong>Apri Pandu Wicaksono </strong>
+    <br>
+    <strong>Hamka Zaenul Ardi</strong>
+    <br />
+    <h3>LABORATORIUM HIGH PERFORMANCE <br>FAKULTAS INFORMATIKA <br>UNIVERSITAS TELKOM PURWOKERTO <br>2026 </h3>
+</div>
+<hr>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## Dasar Teori
 
-## About Laravel
+Website festival makanan ini mencakup konsep website sebagai media informasi berbasis internet yang digunakan untuk menampilkan data produk secara digital, serta digitalisasi sebagai proses perubahan dari sistem manual menjadi sistem berbasis teknologi untuk meningkatkan efisiensi dan jangkauan informasi. Website ini termasuk dalam sistem informasi yang mengelola data produk makanan seperti nama, harga, dan deskripsi agar dapat diakses pengguna dengan mudah. Dalam pengembangannya digunakan framework Laravel yang menerapkan konsep MVC (Model View Controller) untuk memisahkan pengolahan data, tampilan, dan logika aplikasi sehingga lebih terstruktur dan mudah dikembangkan, serta didukung oleh database MySQL sebagai media penyimpanan data yang cepat, aman, dan terintegrasi dengan aplikasi web.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Tugas Modul 9 - PHP: Buat Sistem Penilaian Mahasiswa
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Tugas Modul 11, 12, 13 (jadi satu)
+Mas jakobi mempunyai restoran di ngawi timur dimana toko tersebut didanai oleh jendral ladesh dari ngawi barat, yang mana dari pendanaan itu mas jakobi diminta untuk melancarkan digitalisasi yang mana merupakan program kerja di ngawi barat agar terlaksana nya 19 ribu lapangan pekerjaan. yang mana realisasi nya berupa web untuk merayakan festival makanan yang mana nantinya akan berisi produk produk dari restoran mas jakobi yang mana produk tersebut akan ditampilkan di halaman depan website beserta informasi dari produk tersebut seperti harga, deskripsi produk, dan informasi lain nya. dengan syarat yaitu menggunakan framework laravel (kesukaan mas paris) dan menggunakan database mysql untuk menyimpan data. tenggat sampai pertemuan king ladesh dan mas jakobi (minggu depan)
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+### Source Code
 
-## Learning Laravel
+<?php
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+namespace App\Models;
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+// use Illuminate\Contracts\Auth\MustVerifyEmail;
+use Database\Factories\UserFactory;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Foundation\Auth\User as Authenticatable;
+use Illuminate\Notifications\Notifiable;
 
-## Laravel Sponsors
+class User extends Authenticatable
+{
+    /** @use HasFactory<UserFactory> */
+    use HasFactory, Notifiable;
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+    /**
+     * The attributes that are mass assignable.
+     *
+     * @var list<string>
+     */
+    protected $fillable = [
+        'name',
+        'email',
+        'password',
+    ];
 
-### Premium Partners
+    /**
+     * The attributes that should be hidden for serialization.
+     *
+     * @var list<string>
+     */
+    protected $hidden = [
+        'password',
+        'remember_token',
+    ];
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+    /**
+     * Get the attributes that should be cast.
+     *
+     * @return array<string, string>
+     */
+    protected function casts(): array
+    {
+        return [
+            'email_verified_at' => 'datetime',
+            'password' => 'hashed',
+        ];
+    }
+}
 
-## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+KODE LENGKAP = ADA DI DILE FESTIVAL MAKANAN
 
-## Code of Conduct
+### Penjelasan
+Kesimpulannya, website festival makanan ini merupakan bentuk digitalisasi sistem promosi dan pengelolaan produk restoran yang memanfaatkan teknologi web untuk menyajikan informasi secara lebih cepat dan mudah diakses. Dengan menggunakan framework Laravel yang berbasis MVC serta database MySQL, sistem dapat dibangun secara terstruktur, efisien, dan terorganisir dalam mengelola data produk seperti nama, harga, dan deskripsi makanan.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## DOKUMENTASI
 
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+![alt text](670554180_816202018210594_3848084660888113898_n.png)
