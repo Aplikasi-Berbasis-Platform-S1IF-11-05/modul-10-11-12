@@ -7,20 +7,19 @@ use Illuminate\Http\Request;
 
 class ProdukController extends Controller
 {
-    // READ - Tampilkan semua produk
+    // READ 
     public function index()
     {
         $produk = Produk::all();
         return view('produk.index', compact('produk'));
     }
 
-    // CREATE - Form tambah
+    // CREATE 
     public function create()
     {
         return view('produk.tambah');
     }
 
-    // STORE - Simpan produk baru
     public function store(Request $request)
     {
         $request->validate([
@@ -45,14 +44,14 @@ class ProdukController extends Controller
         return redirect('/')->with('success', 'Produk berhasil ditambahkan!');
     }
 
-    // EDIT - Form edit
+    // EDIT 
     public function edit($id)
     {
         $produk = Produk::findOrFail($id);
         return view('produk.edit', compact('produk'));
     }
 
-    // UPDATE - Simpan perubahan
+    // UPDATE 
     public function update(Request $request, $id)
     {
         $request->validate([
@@ -79,14 +78,13 @@ class ProdukController extends Controller
         return redirect('/')->with('success', 'Produk berhasil diupdate!');
     }
 
-    // DELETE - Hapus produk
+    // DELETE 
     public function destroy($id)
     {
         Produk::findOrFail($id)->delete();
         return redirect('/')->with('success', 'Produk berhasil dihapus!');
     }
 
-    // SHOW GAMBAR - Serve gambar dari BLOB
     public function showGambar($id)
     {
         $produk = Produk::findOrFail($id);
